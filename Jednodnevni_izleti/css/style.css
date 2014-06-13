@@ -1,0 +1,623 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	background-color: white;
+}
+
+body a:link, a:visited , a:hover, a:active{
+	text-decoration:none;
+	color: black;
+}
+
+body h1, h2, h3, h4, h5{
+	text-align: center;
+}
+
+body input[type="text"], input[type="email"], input[type="password"], input[type="date"], select {
+	width: 200px;
+	height: 30px;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+}
+
+body textarea {
+	border: 0px solid;
+	border-radius: 5px;
+	resize: none;
+}
+
+header { 
+	margin-bottom: 50px;
+	font-size: 110%;
+}
+
+p{
+	line-height:150%;
+}
+
+.navigation  {
+	padding: 15px;
+	height: 20px;
+	margin-bottom: 80px;
+	background-color: rgb(64,35,37);
+	color: white;
+}
+
+header a:link, header a:visited ,header a:hover, header a:active{
+	color: white !important;
+}
+
+
+.navigation > div {
+	display: inline;	
+}
+
+.left {
+	float: left;
+}
+
+.centar {
+	margin-left: 40%;
+}
+
+.right {
+	float: right;
+}
+
+/* login */
+#login {
+	width: 600px;
+	height: 400px;
+	background-color: #E8E8E8;
+	background-color: #734943;	
+	color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+	visibility: hidden;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 10px;
+}
+
+#login label{
+	color: white;
+}
+
+#login > form {
+	margin-left: 18%;
+}
+
+#login > form > table td {
+	padding: 10px;
+	text-align: right;
+}
+
+#login > form input#user, input#pass {
+	width: 200px;
+	height: 30px;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.bttnSubmit {
+	width: 150px;
+	height: 30px;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 30px;
+}
+/* kraj login */
+
+.bttnLogout {
+	border: 0px solid;
+	background-color: rgb(64,35,37);
+	color: white;
+}
+
+/* registration */
+#registration {
+	width: 600px;
+	height: 700px;
+	background-color: #E8E8E8;
+	background-color: #734943;	
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+	visibility: hidden;
+	text-align: center;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+
+#registration label{
+	color: white;
+}
+
+#registration > form {
+	margin-left: 10%;
+	padding: 0 30px 30px 30px;
+}
+
+#registration > form > table td {
+	padding: 10px;
+	text-align: right;
+}
+
+#registration > form input[type="radio"] {
+	height: 20px;
+	width: 40px;
+}
+/* kraj registracija */
+
+/* sa pocetne */ 
+h1{
+	font-size: 5em;
+	color: darkblue;
+	color: #611516;
+	font-family: 'Allura', cursive;
+}
+
+.primary {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.primary > h2 {
+	text-align: left;
+}
+
+.primary > div > p {
+	padding: 10px;
+}
+
+.description {
+	position: relative;
+	top: 35%;
+	width: 400px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.65);
+	background-color: rgba(64,35,37,0.65);
+	color: white;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.village {
+	background-image: url('../img/selo-naslovna.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height: 600px;
+}	
+
+.sea {
+	background-image: url('../img/more-naslovna.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height: 600px;
+}
+
+.mountain {
+	background-image: url('../img/planine-naslovna.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height: 600px;
+}
+
+.city {
+	background-image: url('../img/grad-naslovna.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height: 600px;
+}
+/* kraj pocetna */
+
+/* ponuda */
+.wrapper {
+	height: 100%;
+}
+
+.wrapper > aside > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+aside{
+	float:left;
+	margin-top: 1%;
+}
+
+.wrapper > aside li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+aside a {
+	display: block;
+	padding: 20px 20px 20px 20px;
+	margin: 20px 10px 0px 0;
+	width: 200px;
+	text-indent: 50px;
+	border: solid 1px;
+	border-left: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+aside > ul > li > a{
+	font-weight: 800;
+	font-size: 1.2em;
+}
+
+#selo{
+	background-image: url('../img/selo-mala.jpg');
+	background-size: 100%;
+}
+
+#more{
+	background-image: url('../img/more-mala.jpg');
+	background-size: 100%;
+}
+
+#planine{
+	background-image: url('../img/planine-mala.jpg');
+	background-size: 100%;
+}
+
+#grad{
+	background-image: url('../img/grad-mala.jpg');
+	background-size: 100%;
+}
+
+.slika>img{
+	margin-bottom: 1%;
+	margin-left: 4%;
+}
+/*
+.slike{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.slike>img{
+	margin-left:0.5%;
+	margin-bottom: 0.5%;
+	width: 24%;
+	height: 25%;
+}
+
+.slike:hover{
+	cursor: pointer;
+}*/
+article{
+	float: right;
+	/*background: #98AFC7;*/
+	padding:1%;
+}
+
+.container img:hover, .container .text:hover{
+	cursor: pointer;
+}
+
+.container {
+	position:relative;
+	height:20%;
+	width:24%;
+	display: inline-block;
+	margin: 0.5%;
+}
+
+.container img {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 100%;
+}
+
+.container .text {
+	z-index:100;
+	position:absolute;
+	bottom: 1px;
+	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 30px;	
+}
+
+.text p {
+	margin-left: 10%;
+	line-height: 0;
+	color: white;
+}
+
+.bttnBody {
+	background-color: !important;
+	color:white !important;
+	background-color: rgb(64,35,37) !important;
+}
+
+#ispis {
+	margin-top: 50px;
+}
+/* kraj ponuda */
+
+/* kontakt */
+.forma{
+	margin-left: 1%;
+}
+
+.forma > form {
+	float: right;
+	margin-top: 20px;
+}
+
+.forma > form input, form textarea {
+	border: 1px solid #DDD;
+}
+
+.forma table td {
+	padding: 5px;
+}
+
+.forma label {
+	text-align: center;
+}
+
+.karta{
+	margin-top: 5%;
+}
+/* kraj kontakta */
+
+/*pocetak tabovi*/
+.tabs input[type=radio] {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+}
+
+.tabs {
+	width: 650px;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tabs li{
+    float: left;
+}
+
+.tabs label {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 5px 5px 0 0;
+	background-color: #C7A585;
+	cursor: pointer;
+	position: relative;
+}
+
+#tab-name:hover {
+	background-color: rgb(64,35,37);
+	color: white;
+}
+
+[id^=tab]:checked + label {
+	background-color: #FFEAC9;
+}
+
+[id^=tab]:checked ~ [id^=tab-content] {
+	display: block;
+}
+
+.tab-content {
+	z-index: 2;
+	display: none;
+	padding: 30px;
+	width: 100%;
+	background-color: #FFEAC9;
+	position: absolute;
+	left: 0;
+	border-radius: 0 3px 3px 3px;
+}
+
+.tab-content .bttnSubmit, .tab-content .bttnCancle {
+	background-color: rgb(64,35,37);	
+	color:  white;
+}
+/*kraj tabovi*/
+
+/*administrator*/
+#update {
+	background-color:#E8E8E8; 
+	border: solid 1px black;
+	height:400px; 
+	width:800px;
+	margin: 0 auto;
+	position: relative;
+	z-index: -999;
+	visibility: hidden;
+}
+
+#update table {
+	margin: 0 auto;
+	margin-top:100px;
+}
+
+#update table td {
+	padding: 10px;
+}
+/*tab1*/
+.tabsAdmin {
+	width: 1000px;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.admin label {
+	background-color: inherit !important;
+	text-align: right;
+	cursor: default;
+}
+
+::-webkit-file-upload-button {
+	width: 150px;
+	height: 30px;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+::-webkit-file-upload-button:hover {
+	border-radius: 10px;
+}
+/*tab2*/
+.update-contents {
+	width: 100%;
+	text-align: left;
+}
+.update-contents td {
+	padding: 10px 5px;
+}
+
+.update-contents input[type="image"]{
+	width: 30px;
+	height: 30px;
+}
+
+.update-contents img{
+	width: 30px;
+	height: 30px;
+}
+
+.adminButton button {
+	background-color: inherit;
+	border: none;
+}
+/*kraj administrator*/
+
+/*korisnik*/
+.bttnCancle {
+	width: 150px;
+	height: 30px;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+#korisnik {
+	color: #C41010;
+}
+/*kraj korisnik*/
+
+footer {
+	padding: 50px 20px 10px 20px;
+	background-color: #DDD;
+	background-color: rgb(28,21,28);
+	background-color: rgb(47,28,34);
+	background-color: rgb(36,28,36);
+	background-color: #1E151C;
+	background-color: rgb(64,35,37);
+	margin-top: 100px;
+}
+
+footer h5{
+	color: white;
+}
+
+footer table{
+	color: white;
+}
+
+footer a:link,footer a:visited,footer a:hover,footer a:active{
+	color: white;
+}
+.footer-left {
+	float: left;
+	width: 35%;
+	font-size: 80%;
+}
+
+.footer-right {
+	float: right;
+	width: 35%;
+	font-size: 80%;
+}
+
+
+
+/**** responzivno *****/
+@media only screen and (max-width:1200px){
+	.slike img {width: 31%;}
+}
+
+@media only screen and (max-width:1100px){
+  	.column-9 { width: 65%;}
+}
+
+@media only screen and (max-width:960px){
+	.tekst { width: 100%; box-sizing: border-box; }
+	.slika { width: 100%; box-sizing: border-box; }
+	.slika img { display: inline; width: 45%; margin-left: 0px; margin-right: 20px;}
+}
+
+@media only screen and (max-width:800px) {
+  .centar {
+	margin-left: 27%;
+   }
+}
+
+@media only screen and (max-width:830px) {
+  .column { width: 100%; margin: 0; padding: 0 20px; box-sizing: border-box; }
+  .slike {margin-left: 15px; }
+  .centar { margin-left: 20%; }
+  .forma > form { float: left; }
+}
+
+@media only screen and (max-width:750px) {
+	.column {padding: 0 10px;}
+	.slike {margin-left: 10px;}
+}
+
+@media only screen and (max-width:580px) {
+	.centar { margin-left: 17%; }
+ 	.description { width: 80%; }
+ 	#registration{ width: 100%;	}
+	#registration > form{margin-left: 0;}
+	#login { width: 100%; }
+	#login > form{margin-left: 10%;}
+}
+
+@media only screen and (max-width:517px){
+	.slika img { width: 100%;}
+	#login >form { margin-left: 0;}
+}
+
+@media only screen and (max-width:500px) {
+	.navigation > .left  { box-sizing: border-box; width: 100%; padding-bottom: 10px }
+	.navigation > .centar  { box-sizing: border-box; width: 100%; margin-left: 0; }
+	.navigation > .right { box-sizing: border-box; width: 100%; padding-top: 10px; }
+	.description { width: 70%; }
+}
+
+@media only screen and (max-width:450px) {
+	body h1 { font-size: 3em; }
+	header img { width: 80%; }
