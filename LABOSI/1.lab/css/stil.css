@@ -1,0 +1,55 @@
+.heder{
+	height: 150px;
+	background: #BC1F2A;
+}
+.heder1{
+	height: 80px;
+	background: #BC1F2A;
+}
+
+.lijevoTijelo{
+	color: #14786D;
+	font-size: 1.7em;
+	text-align:center;
+	padding: 3%;
+	margin-top: 5%;
+}
+
+.desnoTijelo{
+	color: #14786D;
+	font-size: 1.2em;
+	padding: 5%;
+}
+
+.futer{
+	height: 80px;
+	background: #BC1F2A;
+	
+	width:100%;
+	color:#14786D;
+	text-align: center;
+}
+
+#gumb{
+	color:#14786D;
+}
+
+.ime{
+margin-top:3%;
+margin-bottom: 2%;
+}
+
+.logo{
+text-align: center;
+margin-top:2%;
+margin-bottom: 2%;
+}
+
+.meni {
+background: #BC1F2A;
+}
+
+.meni a{
+color: white;
+text-decoration: none;
+}

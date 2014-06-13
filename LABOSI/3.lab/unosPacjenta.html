@@ -1,0 +1,119 @@
+<?php include ('sesija.php'); ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <title>Dinamičke web aplikacije</title>
+	
+	<link rel="stylesheet" href="css/grid.css" />
+	<link rel="stylesheet" href="css/stil.css" />
+	  <link rel="stylesheet" href="css/normalize.css" />
+		<script type="text/javascript" src="js/search.js"></script>
+</script>
+	  
+</head>
+
+<body>
+<div class="heder1">
+</div>
+ <section class="Tijelo row">
+	  <div class="logo column column-3">
+	 <img class="slika" src="logo.png" height="30%" width="50%">
+	 </br>
+</div>
+
+<div class="ime column colum-9">
+
+ <button name="odjava" type="button">Odjava</button>
+</div>
+</section>
+
+ <section class="Tijelo row">
+	  <div class="meni column column-3">
+	<ul>
+<li><a href="zivotopis.php#Osobni">Osobni podatci</a></li>
+<li><a href="zivotopis.php#Podatci">Podatci o školovanju</a></li>
+<li><a href="zivotopis.php#Znanja">Znanja i vještine</a></li>
+<li><a href="pacjenti.php">Pacjenti</a></li>
+<li><a href="unosPacjenta.html">Unos pacjenta</a></li>
+</ul>
+</div>
+		<div class="ime column colum-9">
+				<h2>Formular za upis pacijenata</h2>
+			<form action="unosPacjenta.php" method="POST">
+				<table class="unos">
+					<tr>
+						<td><label for="name">Ime:</label></td>
+						<td><input type="text" name="ime" id="name"></td>
+					</tr>
+					<tr>
+						<td><label for="surname">Prezime:</label></td>
+						<td><input type="text" name="prezime" id="surname"></td>
+					</tr>
+					<tr>
+						<td><label for="spol">Spol:</label></td>
+						<td><input type="radio" name="spol" value="M" id="spol">M<br>
+							<input type="radio" name="spol" value="Ž" id="spol">Ž</td>
+					<tr>
+						<td><label for="date">Datum rođenja:</label></td>
+						<td><input type="date" name="datumRod" id="date"></td>
+					</tr>
+					<tr>
+						<td><label for="city">Mjesto rođenja:</label></td>
+						<td><input type="text" name="mjestoRod" id="city"></td>
+					</tr>
+					<tr>
+						<td><label for="adresa">Adresa i mjesto stanovanja:</label></td>
+						<td><input type="text" name="adresa" id"adresa"></td>
+					</tr>
+						<tr>
+						<td><label for="krvnaGrupa">Krvna grupa:</label></td>
+						<td><select name="krvnaGr">
+								<option value="A">A</option>
+								<option value="B">B</option>
+								<option value="AB">AB</option>		
+								<option value="0">0</option>			
+							</select>
+							<select name="tipKrvi">
+								<option value="+">+ (pos)</option>
+								<option value="-">- (neg)</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="bolesti">Prijašnje medicinske tegobe (srčane tegobe, talk, virusne, bolesti (Hepatitis, HIV)):</label></td>
+						<td>
+							<input type="radio" name="tegobe" value="DA" id="tegobe" checked>Da<br>
+							<input type="radio" name="tegobe" value="NE" id="tegobe">Ne<br>
+						</td>
+					</tr>	
+					<tr>
+						<td><label for="tegobeOpis">Koje tegobe osoba ima:</label></td>
+						<td><input type="text" name="tegobeOpis" id"tegobe"></td>
+					</tr>
+					<tr>
+						<td><label for="alergija">Jeli osoba alergična na lijekove:</label></td>
+						<td><input type="radio" name="alergija" value="DA" id="alergija" checked>Da<br />
+						<input type="radio" name="alergija" value="NE" id="alergija">NE<br />
+						<input type="radio" name="alergija" value="NEZNA" id="alergija">Ne zna</td>
+					</tr>
+					<tr>
+						<td><label for="lijek">Na koje lijekove je osoba alergična:</label></td>
+						<td><input type="text" name="alergijaOpis" id="lijek"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Spremi"></td>
+					</tr>
+				</table>
+			</form>
+			
+				
+		</div>
+</section>
+<div class="futer"></br>
+<strong>© ZKD, 2014</strong>
+</div>
+
+</body>
+</html>
