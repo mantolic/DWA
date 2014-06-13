@@ -1,0 +1,28 @@
+Formular za upis pacijenata:
+
+Ime: [slobodan tekst]
+Prezime: [slobodan tekst]
+
+Spol: [M ; Ž]
+
+Datum rođenja: [dan] [mjesec] [godina]
+Mjesto rođenja: [slobodan tekst]
+
+Adresa i mjesto stanovanja: [slobodan tekst]
+
+Krvna grupa (ako zna): [A; B; AB; 0] [+ (pos) ; - (neg)]
+
+
+Ima li prijašnjih medicinskih tegoba (srčane tegobe, tlak, virusne bolesti (Hepatits, HIV)): [Da ; Ne]
+Ako je odgovor na prijašnje pitanje "Da" popuniti:
+Koje tegobe osoba ima [slobodan tekst]
+
+
+Je li osoba alergična na lijekove: [Da ; Ne ; Ne zna]
+Ako je odgovor na prijašnje pitanje "Da" popuniti:
+Na koje lijekove je osoba alergična [slobodan tekst] 
+
+
+
+
+
